@@ -1,0 +1,66 @@
+body {
+	padding:0px;
+	margin:0px;
+	background:url("imagens/layout_PNG_r2_c1_s1.jpg");
+	font-family: Arial, serif;
+}
+
+p {
+	text-align:justify;
+}
+
+.clear {
+	clear:both;
+}
+
+.div_container {
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.coluna1, .coluna2, .coluna3{
+    width: 275px;
+    height: 250px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    float: left;
+	padding: 10px;
+}
+.coluna2{
+	margin-right: 20px
+;
+	margin-left: 20px;
+}
+.div_cabecalho {
+	background:url("imagens/bg_topo_s1.jpg") top repeat-x;
+	height:160px;
+}
+
+.div_logomarca {
+	width:200px;
+	float:left;
+	display:block;
+	padding-top:40px;
+}
+
+.div_menu {
+	width:600px;
+	float:right;
+	text-align:right;
+	padding-top:60px;
+	display:block;
+	font-size:20px;
+}
+
+.div_conteudo {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.div_rodape {
+	background:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
